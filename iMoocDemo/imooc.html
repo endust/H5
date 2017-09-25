@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="gb2312">
+<title>iMooc</title>
+<link href="imooc_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/setHomeSetFav.js"></script>
+<script type="text/javascript" src="js/myFocus-2.0.1.min.js" charset="utf-8"></script> <!-- homepage change pic-->
+<script type="text/javascript">
+    myFocus.set({
+        id: 'boxID',
+        pattren: 'mF_fancy',
+        time: 3,
+        trigger: 'click',
+        width: 1000,
+        height: 310,
+        txtHeight: 'default'
+    });
+</script>
+
+</head>
+
+<body>
+
+<div class="top">
+    <div class="top_content">
+        <ul>
+            <li><a href="#">Connect Us</a></li>
+            <li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">Add to Mark</li>
+            <li><a onclick="SetHome(window.location)" href="javascript:void(0)">Set as home</li>
+        </ul>
+    </div>
+</div>
+<!-- Top end -->
+
+<div class="wrap">
+        <div class="logo">
+            <div class="logo_left"><img src="images/logo.jpg" /></div>
+            <div class="logo_right"><img src="images/tel.jpg" width="28" height="28" />24 hours service: <span class="tel">123-456-7890</span></div>
+        </div>
+        <!-- logo end -->
+        <div class="nav">
+            <div class="nav_left"></div>
+            <div class="nav_mid">
+                <div class="nav_mid_left">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About iMooc</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Class Center</a></li>
+                        <li><a href="#">Online Class</a></li>
+                        <li><a href="#">HR</a></li>
+                    </ul>
+                </div>
+                <div class="nav_mid_right">
+                    <form action="" method="post">
+                        <input type="text" class="search_text" />
+                    </form>
+                </div>
+            </div>
+            <div class="nav_right"></div>
+        </div>
+        <!--navEnd-->
+        <div class="ad">
+            <div id="boxID"> <!--boxID  equal focusId -->
+                <div class="loading"><img src="images/loading.gif" alt="" /></div>  <!--loading for betteruser expirerence -->
+
+                <div class="pic">
+                    <ul>
+                        <li><a href="#"><img src="images/ad2.jpg" thumb="" alt="" text="" /></a></li>
+                        <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="" text="" /></a></li>
+                        <li><a href="#"><img src="images/ad4.jpg" thumb="" alt="" text="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- AD end -->
+        <div class="main">
+            <div class="news">
+                <div class="title">
+                    <h2 class="title_left">News Center</h2>
+                    <span class="title_right"><a href="#">More&gt;&gt;</a></span>
+                </div><!-- title End -->
+                <div class="pic_news">
+                   <img src="images/news.jpg" alt="520 people who are really love each other" width="113" height="77" />
+                   <h2><a href="news.htm">The day is people who really love each other</a></h2>
+                   <p>hello world!<br/>
+                      world hello<br/>
+                      learn more>>
+                   </p>   
+                </div><!-- pic_news End -->
+                <div class="news_list">
+                   <ul>
+                    <li><span>2017-09-15</span> <a href="news.html">I am superman of the world</a></li> 
+                    <li><span>2017-09-15</span> <a href="news.html">You are superman of the world</a></li> 
+                    <li><span>2017-09-15</span> <a href="news.html">We are superman of the world</a></li>  
+                    <li><span>2017-09-15</span> <a href="news.html">We are superman of the world</a></li>                    
+                </div><!-- news_list End -->
+            </div><!-- news end -->
+
+            <div class="products">
+                <div class="title">
+                    <h2 class="title_left">Course Center</h2>
+                    <span class="title_right"><a href="#">More&gt;&gt;</a></span>
+                </div> 
+                <div class="product_list">
+                    <img src="images/css.jpg" alt="" width="158" height="106"/>
+                    <h2><a href="news.html">CSS corion</a></h2>
+                    <p> We are superman of the worldWe are superman of the worldWe are superman of the worldWe are superman of the world</p>
+                </div>
+                <div class="product_type">
+                    <ul>
+                        <li>PHP</li>
+                        <li>Android</li>
+                        <li>Java</li>
+                        <li>Golang</li>
+                    </ul>
+                </div>
+
+            </div> <!-- products end -->
+ 
+            <div class="sidebar">
+                <div class="video">
+                    <div class="title">
+                        <h2 class="title_left">Media Attention</h2>
+                        <span class="title_right"><a href="#">More&gt;&gt;</a></span>
+                    </div>
+                    <p class="video_content">
+                        <embed src="http://player.youku.com/player.php/sid/XNjkzMDE5MTUy/v.swf" allowFullScreen="true" quality="high" width="220" height="140" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    </p>
+                </div><!-- video end -->
+
+                <div class="service"> <img src="images/app.jpg" /></div>
+
+            </div><!-- sidebar end -->
+
+        </div><!-- main end -->
+
+</div><!-- wrap end -->
+
+<div class="copyright">
+    <div class="copyright_content">
+        <ul>
+            <li>About
+                <ul>
+                    <li>Our story</li>
+                    <li>Connect us</li>
+                    <li>Join us</li>
+                    <li>copyright</li>
+                </ul>
+            </li>
+            <li>Course
+                <ul>
+                    <li>PHP development</li>
+                    <li>font development</li>
+                    <li>Java devement</li>
+                    <li>Android development</li>
+                </ul>
+            </li>
+            <li>Follow
+                <ul>
+                    <li>Sina weibo</li>
+                    <li>Tencent weibo</li>
+                    <li>Wechat</li>
+                    <li>QQ Qzone</li>
+                </ul>
+            </li>
+            <li>feedback
+                <ul>
+                    <li>request</li>
+                    <li>message</li>
+                    <li>midia connect</li>
+                    <li>online</li>
+                </ul>
+            </li>
+            <li><img src="images/weixin.png" alt="" width="30" height="27" />Wechat follow 
+                <ul>
+                    <li><img src="images/qrcode.jpg" alt="" width="102" height="102"/></li>
+                </ul>
+            </li>
+        </ul>                  
+    </div><!-- copyrigt_content end -->
+</div><!-- copyright end -->
+
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* CSS Document */
+.warp {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navTop {
+    background-color: #e4e4e4;
+    height: 31px;
+    line-height: 31px;
+}
+
+.star {
+    background: url(../images/icon/collection.png) left center no-repeat; 
+    padding-left: 19px; 
+    font-weight: bold;
+}
+
+.navTop a:havor {color: #ff0000;}
+
+
+.navMiddle {
+    background-color: #3373d3;
+    height: 85px;
+}
+
+.logoLeft {
+    padding-left: 41px;
+    padding-top: 13px;
+ }
+
+.logoMiddle {
+    width: 430px;
+    padding-left: 185px;
+    padding-top: 23px;
+}
+
+.search_text {
+    width: 350px;
+    height: 35px;
+    line-height: 35px\9;
+    padding: 0 5px;
+    background-color: #ffffff;
+}
+
+.search_btn {
+    width: 70px;
+    height: 35px;
+    background-color: #dd9104;
+    color: #ffffff;
+}
+
+.shopCar {
+    width: 145px;
+    height: 35px;
+    background-color: #dd9104;
+    margin-top: 23px;
+    font:14px/35px "Micsoft YaHei";
+    color: #ffffff;
+}
+
+.shopText {
+    background: url(../images/icon/shopCar.png) 10px center no-repeat;
+    height: 100%;
+    width: 87px;
+    border-right: #c98102 solid 1px;
+    text-indent: 40px; /*首位缩进*/
+}
+
+.shopNum {
+    width: 27px;
+    border-left: #ff9c01 solid 1px;
+    text-align: right;
+    background: url(../images/icon/三角.png) 33px center no-repeat;
+    padding-right: 29px;
+}
+
+/*navBox*/
+.navBox {
+    height: 35px;
+    background-color: #2b65be;
+    color: #ffffff;
+}
+
+.shopClass {
+    width: 190px;
+    position: relative;
+}
+
+.shopClass h3 {
+    text-align: center;
+    line-height: 35px;
+}
+
+.shopClass i {
+    width: 11px;
+    height: 7px;
+    background:url(../images/icon/caret.gif) left center no-repeat;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.shopClass h3, .nav {
+    font:"Micsoft YaHei";
+}
+
+.nav {
+    line-height: 35px;
+    text-align: center;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    color:#ffffff;
+    background-color: #1369c0;
+    padding:0 35px;
+    display: block;
+}
+
+.nav a:hover { 
+    background-color:#4593FD;
+}
+
+.shopClass_show {
+    position: absolute; left:0; top:35px; width:100%;
+}
+.shopClass_item { 
+    background-color:#4593FD; 
+    padding:16px 10px; 
+    border-top:#5AA1FE solid 1px; 
+    border-bottom:#3487F2 solid 1px;
+}
+.shopClass_item dt {
+    height:24px; 
+    background:url(../images/icon/Èý½Ç2.gif) right center no-repeat; 
+}
+.shopClass_item .b {/*font-weight:bold; font-size:14px; font family:"Micsoft YaHei","Î¢ÈíÑÅºÚ";*/  
+font:14px/1 "Micsoft YaHei","Î¢ÈíÑÅºÚ";
+}
+.shopClass_item .radius {
+    background-color:#106AC0; border-radius:5px; text-decoration:underline;
+}
+.shopClass_item a {color:#FFFFFF;}
+.shopClass_item a:hover {text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
